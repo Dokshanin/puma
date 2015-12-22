@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('/fonts/myfont.eot');
+    src: url('/fonts/myfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/myfont.woff') format('woff'),
+         url('/fonts/myfont.ttf') format('truetype'),
+         url('/fonts/myfont.svg#myfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:myfont;
+        src: url(./fonts/myfont.svg) format(svg);
+    }
+}
+
+.icon {
+  font-family: "myfont";
+  font-style: normal;
+  text-transform: none; }
+
+.icon-logo:before {
+  content: "\EA01"; }
+
+.icon-arrow:before {
+  content: "\EA02"; }
+
+.icon-check-ok:before {
+  content: "\EA03"; }
+
+.icon-check:before {
+  content: "\EA04"; }
+
+.icon-menu:before {
+  content: "\EA05"; }
+
+.icon-search:before {
+  content: "\EA06"; }
+
+.icon-search-new:before {
+  content: "\EA07"; }
+
+.icon-clear:before {
+  content: "\EA08"; }

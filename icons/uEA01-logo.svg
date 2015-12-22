@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g sketch:type="MSArtboardGroup" transform="translate(-410.000000, -34.000000)" id="header" fill="#F94000">
+            <g sketch:type="MSLayerGroup" transform="translate(0.000000, 34.000000)">
+                <path d="M424.767217,11.9558633 L421.967126,14.7559547 L421.967126,10.1334754 L416.250361,15.8505441 L414.269995,13.8701773 L419.987063,8.15310857 L415.365193,8.15371735 L418.165284,5.35332164 L424.76813,5.35332164 L424.767217,11.9558633 L424.767217,11.9558633 L424.767217,11.9558633 Z M420.000152,0 C414.478198,0 410,4.47758922 410,9.99984778 C410,15.5214976 414.478198,20 420.000152,20 C425.522106,20 430,15.5214976 430,9.99984778 C430,4.47758922 425.522106,0 420.000152,0 L420.000152,0 L420.000152,0 Z" id="logo" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

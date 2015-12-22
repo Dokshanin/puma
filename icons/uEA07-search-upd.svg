@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g sketch:type="MSArtboardGroup" transform="translate(-1576.000000, -37.000000)" id="header" stroke="#353534">
+            <g sketch:type="MSLayerGroup" transform="translate(0.000000, 34.000000)">
+                <path d="M1584.04594,13.52352 C1586.84919,13.2709056 1589.04594,10.9149628 1589.04594,8.04594155 C1589.04594,5.00837542 1586.58351,2.54594155 1583.54594,2.54594155 C1580.50838,2.54594155 1578.04594,5.00837542 1578.04594,8.04594155 C1578.04594,10.9149628 1580.24269,13.2709056 1583.04594,13.52352 L1583.04594,18.5459415 L1584.04594,18.5459415 L1584.04594,13.52352 Z" id="search" sketch:type="MSShapeGroup" transform="translate(1583.545942, 10.545942) rotate(-45.000000) translate(-1583.545942, -10.545942) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

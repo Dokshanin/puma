@@ -1,0 +1,147 @@
+!!! Strict
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+	%head
+		%title Puma
+		%meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
+		%meta{content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no', name: 'viewport'}
+		%link{href: ('favicon.png'), rel: 'shortcut icon'}
+		%link{href: ('apple-touch-icon.png'), rel: 'apple-touch-icon'}
+		%meta{:property => "og:title", :content => "Puma site"}
+		%meta{:property => "og:description", :content => 'Test text'}
+		%meta{:property => "og:type", :content => "text"}
+		%meta{:property => "og:image", :content => "http://puma/images/sneacker.jpg"}
+		%meta{:property => "og:url", :content => "http://puma.ru"}
+		%meta{:property => "og:site_name", :content => "Puma"}
+		%meta{:property => "fb:app_id", :content => "209833269033641"}
+
+		%link{:href => "../css/style.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+		%link{:href => "../css/grid.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+		%link{:href => "../css/font.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+		%link{:href => "../css/jquery.tosrus.all.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+		%link{:href => "https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css", :rel => "stylesheet", :type => "text/css", :media => "all"}
+
+	%body
+		-# Header
+		%header.header
+			.container12
+				.column1
+					.header__logo
+						%i.icon.icon-logo
+				.column8
+					%nav.header__nav#flow-show
+						%a{:href => '#'} Новинки
+						%a{:href => '#'} Мужское
+						%a{:href => '#'} Женское
+						%a{:href => '#'} Аксессуары
+						%a{:href => '#'} Контакты
+				.column3
+					.header__tel
+						+7 (499) 703-35-71
+					.header__search
+						%a.icon.icon-search-new{:href => '/'}
+		-# Flow-menu
+		.f__menu__overlay#flow-overlay
+		.f__menu#flow-hide
+			.container12
+				.column11.prefix1
+					.f__menu__category
+						.f__menu__category__title
+							Обувь
+						.f__menu__category__list
+							%a{:href => '/'} Кроссовки
+							%a{:href => '/'} Ботинки
+							%a{:href => '/'} Кроссовки
+							%a{:href => '/'} Дутики
+							%a{:href => '/'} Кеды
+							%a{:href => '/'} Сланцы
+					.f__menu__category
+						.f__menu__category__title
+							Верхняя одежда
+						.f__menu__category__list
+							%a{:href => '/'} Все куртки
+							%a{:href => '/'} Зимние куртки
+							%a{:href => '/'} Парки
+							%a{:href => '/'} Пуховики
+							%a{:href => '/'} Анорки
+							%a{:href => '/'} Джинсовые куртки
+							%a{:href => '/'} Стеганые куртки
+		-# Main
+		%main.main
+			#slider.slider
+				%img{:src => 'img/slider.png'}
+				%img{:src => 'img/slider.png'}
+				%img{:src => 'img/slider.png'}
+			.container12
+				-# Products
+				.column9
+					%ul.product-wrap
+						%li.product
+							.product__image
+								%img{:src => 'img/pic1.png'}
+							.product__title
+								%a{:href => '/'} SAUCONY
+							.product__description
+								Мужские кроссовки x Politics Courageous Battle of NOLA Navy/Gold
+							.product__price
+								10 990 р.
+						%li.product
+							.product__image
+								%img{:src => 'img/pic2.png'}
+							.product__title
+								%a{:href => '/'} ONITSUKA TIGER
+							.product__description
+								Мужские кроссовки Colorado Eighty-Five Tan/Tan
+							.product__price
+								7 990 р.
+						%li.product
+							.product__image
+								%img{:src => 'img/pic3.png'}
+							.product__title
+								%a{:href => '/'} PUMA X BAPE
+							.product__description
+								Кроссовки Disc Blaze Camo Green
+							.product__price
+								10 990 р.
+						%li.product
+							.product__image
+								%img{:src => 'img/pic4.png'}
+							.product__title
+								%a{:href => '/'} ADIDAS ORIGINALS
+							.product__description
+								Кроссовки Gazelle Indoor Bluebird/ White/Gum
+							.product__price
+								6 290 р.
+						%li.product
+							.product__image
+								%img{:src => 'img/pic5.png'}
+							.product__title
+								%a{:href => '/'} REEBOK
+							.product__description
+								Мужские кроссовки Classic Leather White/Gum
+							.product__price
+								7 690 р.
+						%li.product
+							.product__image
+								%img{:src => 'img/pic6.png'}
+							.product__title
+								%a{:href => '/'} REEBOK
+							.product__description
+								Мужские кроссовки Ventilator Supreme Steel/Blue/Solar Gold
+							.product__new__price
+								.product__new__price-old
+									5 690 р.
+								.product__new__price-sale
+									3 990 р.
+				-# Filters
+				.column3
+					.filter
+						.filter__clear
+							%i.icon.icon-clear
+						.filter__check
+						.filter__slider
+
+		%script{:type => "text/javascript", :src => "https://code.jquery.com/jquery-2.1.4.js"}
+		%script{:type => "text/javascript", :src => "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"}
+		%script{:type => "text/javascript", :src => "../js/jquery.tosrus.min.all.js"}
+		%script{:type => "text/javascript", :src => "../js/main.js"}
+		%script{:type => "text/javascript", :src => "../js/filter.js"}

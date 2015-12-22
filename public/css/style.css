@@ -1,0 +1,139 @@
+body {
+  background: white;
+  text-rendering: optimizelegibility; }
+
+.header {
+  padding: 32px 0; }
+  .header__logo .icon-logo {
+    font-size: 20px;
+    color: #F94000; }
+  .header__nav {
+    padding-top: 2px; }
+    .header__nav a {
+      font-family: "Helvetica", sans-serif;
+      font-size: 10px;
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin: 0 22px; }
+      .header__nav a:hover {
+        color: #F94000; }
+  .header__tel {
+    font-family: "Helvetica", sans-serif;
+    opacity: 0.5;
+    font-size: 10px;
+    color: #353534;
+    letter-spacing: 2px;
+    line-height: 12px;
+    padding-top: 6px;
+    text-align: right;
+    float: right; }
+  .header__search {
+    float: right;
+    display: inline-block; }
+    .header__search a {
+      text-decoration: none; }
+
+.f__menu {
+  padding: 50px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 3;
+  background: white;
+  margin: 0 auto;
+  width: 100%; }
+  .f__menu__category {
+    float: left;
+    display: inline-block;
+    margin: 0 22px; }
+    .f__menu__category__title, .f__menu__category__list {
+      font-family: "Helvetica", sans-serif;
+      font-weight: bold;
+      font-size: 10px;
+      letter-spacing: 2px;
+      line-height: 12px;
+      text-transform: uppercase;
+      margin-bottom: 30px; }
+      .f__menu__category__title a, .f__menu__category__list a {
+        display: block;
+        color: #000000;
+        text-decoration: none; }
+        .f__menu__category__title a:hover, .f__menu__category__list a:hover {
+          color: #F94000; }
+    .f__menu__category__list {
+      font-weight: normal; }
+      .f__menu__category__list a {
+        line-height: 20px; }
+
+.f__menu__overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 2;
+  width: 100%; }
+
+.main .slider {
+  text-align: center;
+  background-position: center center;
+  height: 400px; }
+
+.main .product-wrap {
+  list-style: none; }
+  .main .product-wrap .product {
+    text-align: center;
+    width: 245px;
+    margin: 16px 15px;
+    vertical-align: top;
+    display: inline-block; }
+    .main .product-wrap .product__title {
+      font-family: "Helvetica", sans-serif; }
+      .main .product-wrap .product__title a {
+        color: black;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2.4px;
+        text-decoration: none; }
+        .main .product-wrap .product__title a:hover {
+          color: #F94000; }
+    .main .product-wrap .product__description {
+      font-family: "Helvetica", sans-serif;
+      line-height: 20px;
+      font-size: 12px;
+      padding: 20px 0; }
+    .main .product-wrap .product__price, .main .product-wrap .product__new__price-old, .main .product-wrap .product__new__price-sale {
+      font-family: "Helvetica", sans-serif;
+      font-weight: bold;
+      font-size: 12px;
+      letter-spacing: 2.4px; }
+    .main .product-wrap .product__new__price {
+      margin: 0 auto;
+      display: inline-block; }
+      .main .product-wrap .product__new__price-old {
+        float: left;
+        text-decoration: line-through;
+        margin: 0 10px; }
+      .main .product-wrap .product__new__price-sale {
+        float: left;
+        color: #F94000;
+        margin: 0 10px; }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .header {
+    display: none; } }
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .header {
+    display: none; }
+  .main .product-wrap .product {
+    width: 135px;
+    margin: 16px 6px; }
+  .main .product-wrap .product__title a {
+    font-size: 10px; }
+  .main .product-wrap .product__description {
+    font-size: 10px;
+    padding: 10px 0; }
+  .main .product-wrap .product__price, .main .product-wrap .product__new__price-old, .main .product-wrap .product__new__price-sale {
+    font-size: 10px; }
+  .main .product-wrap .product__new__price-sale {
+    margin: 0 1px; } }
